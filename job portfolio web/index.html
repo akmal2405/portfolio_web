@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/71fa07f10c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/Black & White Minimalist Business Logo.png" class="logo">
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Software Engineer/Tester</p>
+        <h1>Hi, My name is <span>Muhammad Akmal</span> </h1>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------about--------------------------------------->
+  <div class="about-text" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/me.jpeg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p class="text-desc">
+            A software engineering student looking for an internship that have a strong interest in software
+            development,software testing and data analytics. I am eager to learn about the software industry and ready
+            to work and learn from the seniors in the company.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('project')">Project</p>
+          </div>
+          <div class="tab-contents active-tab" id="education">
+            <ul>
+              <li>
+                <span>German-Malaysian Institute</span><br>Diploma in Software engineering (2021-2024)<br class="cgpa">CGPA: 3.48<br>
+               </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="skills">
+            <ul>
+              <li><span>Programming Languages</span><br>Java, Javascript, Dart, SQL.</br>
+              </li>
+              <li><span>Testing tools</span><br>Selenium, LDRA-cover, JMeter and Testim</br>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="project">
+            <ul>
+              <li><span>Gesundheits Link</span><br>Android App with Smartwatch Integration</br>
+              </li>
+              <li><span>GMI-Prospect</span><br>Java Application</br>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------------------------services------------------------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design and Development</h2>
+          <p>Proficiency in Web designing using FIGMA that translates into html and css</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-book"></i>
+          <h2>Software Documentations</h2>
+          <p>Providing SRS(Software Requirement Specifications), the uml diagrams, bug report, test cases for a software
+            or system</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-star"></i>
+          <h2>Software Developing & Testing</h2>
+          <p>Develop a few projects in Flutter and Java, Involved in multiple testing operations for both web and
+            application </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <!---------------portf------------->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/ok.jpg">
+            <div class="layer">
+              <h3>Gesundheits Link</h3>
+              <p>Fitness Tracker With Smartwatch Integration</p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work2.jpg">
+            <div class="layer">
+              <h3>GMI-Prospect</h3>
+              <p>Student Application </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work3.jpg">
+            <div class="layer">
+              <h3>GMI-Prospect</h3>
+              <p>Student Application </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+    <!---------------------contact---------------------------------------------------->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>akmalbahari2405@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>0195032405</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/akmalbahari2405/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <a href="images/resume_muhammadakmalbahari_updated.pdf" download class="btn btn2" class="btn btn2">Download
+              CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your name" required>
+              <input type="email" name="email" placeholder="Your email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+              <button type="submit" class="btn2-1">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Made by Muhammad Akmal bin Bahari</p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+
+      }
+
+    </script>
+
+    <script>
+
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzcSLYp00UX57SkZkf8af21pFhU67zzYiA6v7WzSYlc2jdXfQyKr0IqJdG9gISVnFhX/exec'
+      const form = document.forms['submit-to-google-sheet']
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
+
+</body>
+
+</html>
